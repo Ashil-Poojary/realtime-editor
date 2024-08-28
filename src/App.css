@@ -1,4 +1,4 @@
-.homePageWrapper{
+.homePageWrapper {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,12 +7,12 @@
   color: #EEEEEE;
 }
 
-.homelogo{
+.homelogo {
   margin-bottom: 20px;
   border-radius: 15px;
 }
 
-.formWrapper{
+.formWrapper {
   background-color: #31363F;
   display: flex;
   flex-direction: column;
@@ -23,14 +23,14 @@
   max-width: 90%;
 }
 
-.inputGroup{
+.inputGroup {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
 
-.inputBox{
+.inputBox {
   padding: 10px;
   outline: none;
   border-radius: 5px;
@@ -39,50 +39,117 @@
   font-size: 16px;
   font-weight: bold;
 }
-.mainLable{
+
+.mainLable {
   margin-top: 0;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 
-.btn{
-border: none;
-font-size: 16px;
-font-weight: bold;
-border-radius: 5px;
-padding: 10px;
+.btn {
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
 }
 
-.joinBtn{
+.joinBtn {
   background-color: aqua;
   width: 100px;
   margin-left: auto;
 
 }
-.joinBtn:hover{
+
+.joinBtn:hover {
   background-color: #76ABAE;
   color: aqua;
   margin-left: auto;
 
 }
 
-.createInfo{
-  margin-bottom:0  auto;
+.createInfo {
+  margin-bottom: 0 auto;
   margin-top: 20px;
 
 }
-.createNewbtn{
+
+.createNewbtn {
   margin-left: 10px;
-  color: aqua;
+  color: #00ffff;
 
 }
 
 
-.footer{
+.footer {
   position: fixed;
   bottom: 10px;
   color: #76ABAE;
+}
+
+
+
+.mainWrapper {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  color: #EEEEEE;
+  height: 100vh;
+
+
+}
+
+.aside {
+  background-color: #45474B;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerSide {
+  flex: 1;
+}
+
+.clientList {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.username {
+  margin-top: 10px;
+}
+
+.copyBtn {
+  background-color: #86A789;
+  margin-bottom: 20px;
+}
+
+
+
+
+.leaveBtn {
+  background-color: #00ffff;
+
+}
+
+.copyBtn:hover, .leaveBtn:hover {
+  background-color: #e2e911;
+
+}
+
+.editorWrap {
+  background-color: #31363F;
+  width: 100%;
 }
